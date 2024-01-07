@@ -33,7 +33,7 @@ zh_TW   : Zhongwen  - Tiwan
 
 ## Setting(s) List:
 ```
-Ø  mp_username                         - Username of player.                                      (Value: Character String)
+Ø  mp_username                        - Username of player.                                      (Value: Character String)
 game_difficulty_new                     - Defualt Difficulty when Creating New World.              (Value: Int 0 - 4)
 game_thirdperson                        - Turn on/off thirdperson when opening a world.            (Value: Boolean)
 gfx_dpadscale                           - Scalability for the DPAD (input multiplied).             (Value: Int 0 - 1 *Decimal)
