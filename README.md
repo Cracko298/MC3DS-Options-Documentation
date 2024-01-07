@@ -3,10 +3,10 @@
 
 ## Understanding the Value(s):
 ```
--1      : Always (force) False
-0       : False
-1       : True
-2       : Always (force) True
+-1      : Always (force) False   *Not All Settings
+0       : False                  *Not All Settings
+1       : True                   *Not All Settings
+2       : Always (force) True    *Not All Settings
 []      : Single List
 #[]     : Combo List (multiple)
 ```
