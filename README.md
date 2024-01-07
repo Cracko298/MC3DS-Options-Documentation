@@ -11,7 +11,7 @@
 #[]     : Combo List (multiple)      *Includes only Integers or Character "X"
 ```
 
-## Understanding Language(s):
+## Language String(s):
 ```
 de_DE   : German    - Germany
 en_GB   : English   - Great Britain (UK)
