@@ -7,8 +7,8 @@
 0       : False                      *Not All Settings (Boolean)
 1       : True                       *Not All Settings (Boolean)
 2       : Always (force) True        *Not All Settings (Boolean)
-[]      : Single List
-#[]     : Combo List (multiple)
+[]      : Single List                *Includes only Integers or Character "X"
+#[]     : Combo List (multiple)      *Includes only Integers or Character "X"
 ```
 
 ## Understanding Language(s):
