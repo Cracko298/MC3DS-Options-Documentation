@@ -3,10 +3,10 @@
 
 ## Understanding the Value(s):
 ```
--1      : Always (force) False       *Not All Settings
-0       : False                      *Not All Settings
-1       : True                       *Not All Settings
-2       : Always (force) True        *Not All Settings
+-1      : Always (force) False       *Not All Settings (Bolean)
+0       : False                      *Not All Settings (Bolean)
+1       : True                       *Not All Settings (Bolean)
+2       : Always (force) True        *Not All Settings (Bolean)
 []      : Single List
 #[]     : Combo List (multiple)
 ```
@@ -33,19 +33,19 @@ zh_TW   : Zhongwen  - Tiwan
 
 ## Setting(s) List:
 ```
-game_difficulty_new:
-game_thirdperson:
-gfx_dpadscale:
-mp_server_visible:
-mp_xboxlive_visible:
-game_flatworldlayers:
-game_limitworldsize:
-game_language:
-game_skintypefull:
-game_lastcustomskinnew:
-game_recentskin1:
-game_recentskin2:
-game_recentskin3:
+game_difficulty_new               - Defualt Difficulty when Creating New World.            (Value: 0 - 4)
+game_thirdperson                  - Turn on/off thirdperson when opening a world.          (Value: Bolean)
+gfx_dpadscale                     - Scalability for the DPAD (input multiplied).           (Value: 0 - 1 *Decimal)
+mp_server_visible                 - Is server avaliable for people to players.             (Value: Bolean)
+mp_xboxlive_visible               - Is server available over Xbox Live.                    (Value: Bolean *Does NOT affect Game)
+game_flatworldlayers              - How many layers (and ID's of blocks for flatworld).    (Value: List)
+game_limitworldsize:              - Should Game Limit World Size.                          (Value: Bolean *Does NOT affect Game)
+game_language                     - What language should be displayed/used.                (Value: Character String *Language String Above)
+game_skintypefull                 - Name of Skin in use by player.                         (Value: Character String *Internal Skin Naming)
+game_lastcustomskinnew            - Is last skin customized/new or bought.                 (Value: Bolean)
+game_recentskin1                  - Sets Skin to this String if Defualt isn't found.       (Value: Character String *Internal Skin Naming)
+game_recentskin2                  - Sets Skin to this String if 'recentskin1' isn't found. (Value: Character String *Internal Skin Naming)
+game_recentskin3                  - Sets Skin to this String if 'recentskin2' isn't found. (Value: Character String *Internal Skin Naming)
 game_automationserverretrytime:
 game_haseverloggedintoxbl:
 game_haschosennottosignintoxbl:
