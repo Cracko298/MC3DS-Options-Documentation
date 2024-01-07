@@ -1,16 +1,12 @@
 # MC3DS-Options-Documentation
 - **Documentation for Minecraft 3DS's options.txt, amongst other configuration files.**
 
-## Understanding the Integer Value(s):
+## Understanding the Value(s):
 ```
 -1      : Always (force) False
 0       : False
 1       : True
 2       : Always (force) True
-```
-
-## Understanding the List(s):
-```
 []      : Single List
 #[]     : Combo List (multiple)
 ```
